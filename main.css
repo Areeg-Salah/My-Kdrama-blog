@@ -23,7 +23,6 @@ html, body {
     align-items: center;
 }
 
-
 nav {
     display: flex;
     justify-content: space-around;
@@ -45,7 +44,7 @@ nav a {
     background-color: white;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
-    flex: 1; 
+    flex: 1; /* Push footer down */
 }
 
 footer {
